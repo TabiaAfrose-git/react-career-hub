@@ -3,7 +3,8 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer bg-base-200 text-base-content p-10">
-        <aside>
+        <div className="footer max-w-6xl mx-auto">
+          <aside>
           <svg
             width="50"
             height="50"
@@ -20,27 +21,34 @@ const Footer = () => {
             <br />
             Providing reliable tech since 1992
           </p>
-        </aside>
-        <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
+          </aside>
+          <nav className="ml-10 mx-10">
+            <h6 className="footer-title">Company</h6>
+            <a className="link link-hover">About Us</a>
+            <a className="link link-hover">Work</a>
+            <a className="link link-hover">Latest News</a>
+            <a className="link link-hover">Careers</a>
+          </nav>
+          <nav className="ml-10 mx-10">
+            <h6 className="footer-title">Product</h6>
+            <a className="link link-hover">Prototype</a>
+            <a className="link link-hover">Customers</a>
+            <a className="link link-hover">Integrations</a>
+          </nav>
+          <nav className="ml-10 mx-10">
+            <h6 className="footer-title">Support</h6>
+            <a className="link link-hover">Help Desk</a>
+            <a className="link link-hover">Sales</a>
+            <a className="link link-hover">Become a Partner</a>
+            <a className="link link-hover">Developers</a>
+          </nav>
+          <nav className="ml-10 mx-10">
+            <h6 className="footer-title">Contact</h6>
+            <a className="link link-hover">Terms of use</a>
+            <a className="link link-hover">+1 777 - 978 - 5570</a>
+          </nav>
+        </div>
+
       </footer>
     </div>
   );
