@@ -1,7 +1,7 @@
 [
      {
       "id": 1,
-      "logo": "../public/assets/logo/google.png",
+      "logo": "./assets/logo/google.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
